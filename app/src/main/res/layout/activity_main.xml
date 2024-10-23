@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Teksto įvedimui naudojamas EditText -->
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_input_text" />
+
+    <!-- Spinner pasirinkimui tarp žodžių ir rašybos ženklų skaičiavimo -->
+    <Spinner
+        android:id="@+id/spinnerChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/count_options"
+        android:layout_marginTop="16dp" />
+
+    <!-- Mygtukas skaičiavimams atlikti -->
+    <Button
+        android:id="@+id/buttonCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_count"
+        android:layout_marginTop="16dp" />
+
+    <!-- Tekstas rezultatui rodyti -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+</LinearLayout>

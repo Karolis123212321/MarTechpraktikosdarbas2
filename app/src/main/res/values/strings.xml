@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MarTech Praktikos Darbas 2</string>
+    <string name="hint_input_text">Enter your text here</string>
+    <string name="button_count">Count</string>
+    <string name="error_empty_input">Please enter some text</string>
+    <string name="result_text">Result: %d</string>
+    <string name="choice_words">Words</string>
+    <string name="choice_characters">Characters</string>
+
+    <string-array name="count_options">
+        <item>@string/choice_words</item>
+        <item>@string/choice_characters</item>
+    </string-array>
+</resources>
