@@ -1,4 +1,4 @@
-package com.example.martechpracticeday2;
+package com.example.martechpraktikosdarbas2;
 
 public class CountHelper {
 

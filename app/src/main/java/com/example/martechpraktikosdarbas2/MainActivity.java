@@ -1,4 +1,4 @@
-package com.example.martechpracticeday2;
+package com.example.martechpraktikosdarbas2;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.martechpraktikosdarbas2.R;
+import com.example.martechpraktikosdarbas2.CountHelper;
 
 public class MainActivity extends AppCompatActivity {
 
