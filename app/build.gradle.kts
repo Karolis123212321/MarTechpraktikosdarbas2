@@ -40,4 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    testImplementation(libs.junit) // JUnit for unit testing
+    testImplementation(libs.mockito.core) // Mockito for mocking
 }
